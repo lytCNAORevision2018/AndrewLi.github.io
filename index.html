@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>lytCNAORevision2018 / AndrewLi Site</title>
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <!-- MathJax for LaTeX rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@2.7.9/MathJax.js?config=TeX-AMS_HTML" async></script>
+  <style>
+    body{font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial; max-width:900px;margin:24px auto;color:#222}
+    header{background:#0b74de;color:#fff;padding:12px;border-radius:6px}
+    a{color:#0b74de}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin-top:18px}
+    .card{border:1px solid #e5e5e5;padding:12px;border-radius:6px;background:#fff}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>个人主页（临时首页）</h1>
+    <p>正在构建完整站点 —— 这是一个临时静态首页，包含快速入口与 LaTeX 支持。</p>
+  </header>
+
+  <nav style="margin-top:12px;">
+    <a href="/content/README.md">Repository README</a> •
+    <a href="/assets/pdfs/CV.pdf">CV (PDF)</a> •
+    <a href="/search.html">搜索</a>
+  </nav>
+
+  <section class="grid" aria-label="四栏">
+    <div class="card">
+      <h2>📒 笔记与习题</h2>
+      <ul>
+        <li><a href="/notes/index.html">笔记与习题主页</a></li>
+        <li><a href="/assets/pdfs/MathAnalysis.pdf">数学分析（PDF）</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>📚 论文与科研成果</h2>
+      <ul>
+        <li><a href="/publications/index.html">论文与科研成果</a></li>
+        <li><a href="/assets/pdfs/Papers.pdf">论文合集（PDF）</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>🏢 实习与项目</h2>
+      <ul>
+        <li><a href="/internships/index.html">实习与项目主页</a></li>
+        <li><a href="/assets/pdfs/ResearchInternship.pdf">科研实习（PDF）</a></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>📝 其他</h2>
+      <ul>
+        <li><a href="/other/index.html">其他内容</a></li>
+        <li><a href="/assets/pdfs/LifeNotes.pdf">生活随笔（PDF）</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <hr />
+
+  <h3>LaTeX 示例（MathJax）</h3>
+  <p>下面的公式由 MathJax 客户端渲染：</p>
+  <p>$$\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}$$</p>
+
+  <footer style="margin-top:28px;color:#666;font-size:0.9em">
+    若要替换为完整 Jekyll 页面，请把站点源文件（_layouts、_config.yml、各页面）放到仓库根并在 Settings → Pages 设置 Branch = main / Folder = root。
+  </footer>
+</body>
+</html>
