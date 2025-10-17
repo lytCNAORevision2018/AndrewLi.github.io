@@ -10,6 +10,15 @@ interface Publication {
 
 const publications: Publication[] = [
 	{
+		title: "A Deep Dive Into The Flash MLA FP8 Decoding Kernel on Hopper",
+		authors: "",
+		time: "2025.10",
+		img_path: "/publications/FlashMLA.png",
+		description: "In this blog, we share the story behind our new FP8 sparse decoding kernel for Hopper GPUs.",
+		submit_status: "On GitHub",
+		link: "https://github.com/deepseek-ai/FlashMLA/blob/1408756a88e52a25196b759eaf8db89d2b51b5a1/docs/20250929-hopper-fp8-sparse-deep-dive.md"
+	},
+	{
 		title: "A Deep-Dive Into the New Flash MLA Kernel",
 		authors: "Jiashi Li, <b>Shengyu Liu</b>",
 		time: "2025.4",
