@@ -8,21 +8,19 @@ interface Experience {
 
 const experiences: Experience[] = [
     {
-		title: "DeepSeek-AI",
-		time: "2025.4 - current",
-		img_path: "/experiences/deepseek.png",
-		description: `Working on <b>Machine Learning Systems (MLSys)</b> and <b>kernel design & optimization</b> at <a href="https://www.deepseek.com/">DeepSeek-AI</a> in Hangzhou, Zhejiang, China.`,
-		link: "https://www.deepseek.com/"
+		title: "苏州大学轨道交通学院",
+		time: "2026.9-2029.6（预计）",
+		img_path: "/experiences/suda.ps",
+		description: `交通运输工程专业交通运输规划与管理方向全日制学术学位硕士研究生，推免`,
+		link: "https://jtxy.suda.edu.cn/"
 	},
 	{
-		title: "Peking University (PKU)",
-		time: "2021.9 - 2025.7",
-		img_path: "/experiences/pku.png",
+		title: "苏州大学轨道交通学院",
+		time: "2022.9 - 2026.6",
+		img_path: "/experiences/suda.ps",
 		description: `
-            I was a student in the <a href="https://cfcs.pku.edu.cn/english/research/turing_program/introduction1/index.htm">Turing Class</a> at <a href="https://eecs.pku.edu.cn/en/">the School of EECS</a>, <a href="https://english.pku.edu.cn/"><b>Peking University (PKU)</b></a>, enrolled since September 2021. <br />
-            Under the advisement of Prof. <a href="https://xinjin.github.io/index.html">Xin Jin</a>, my research focuses on <b>Machine Learning Systems (MLSys)</b>, <b>Machine Learning Compilers</b>, and <b>Distributed Systems</b>. <br />
-            I was also the <b>team leader</b> of the Peking University Supercomputing Team, and we won the <b>First Place</b> at the 10th ASC and the <b>Second Place</b> at SC23 (both are top-tier Supercomputing competitions in the world).`,
-		link: "https://english.pku.edu.cn/"
+           交通运输专业本科生`,
+		link: "https://jtxy.suda.edu.cn/"
 	}
 ]
 
